@@ -1,0 +1,49 @@
+/* Gradient Button */
+.gradient-button {
+    background: linear-gradient(to right, #0c1324, #9d21a8); /* Dark blue to purple */
+    transition: background 0.3s ease-in-out;
+  }
+  .gradient-button:hover {
+    background: linear-gradient(to right, #9d21a8, #0c1324); /* Reverse on hover */
+  }
+  
+
+  .bg-custom-black {
+    background-color: #0a0a0a; /* A rich black */
+  }
+
+  .bg-custom-black-light {
+    background-color: #1a1a1a; /* Slightly lighter black */
+  }
+
+  .bg-custom-black-dark {
+    background-color: #050505; /* Deep black */
+  }
+
+  .text-custom-black {
+    color: #0d0d0d; /* Use for text */
+  }  
+
+/* Add this to styles.css or inline in the HTML */
+.animate-fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  .animate-fade-in.visible {
+    opacity: 1;
+  }
+  
+
+/* Add this to styles.css or inline in the HTML */
+.animate-slide-in {
+    opacity: 0;
+    transform: translateY(50px); /* Start below the normal position */
+    transition: opacity 1s ease-in, transform 1s ease-in; /* Slide and fade in */
+  }
+  
+  .animate-slide-in.visible {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+  
