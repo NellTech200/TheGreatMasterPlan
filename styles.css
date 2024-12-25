@@ -5,6 +5,7 @@
   }
   .gradient-button:hover {
     background: linear-gradient(to right, #9d21a8, #0c1324); /* Reverse on hover */
+    opacity: 20%;
   }
   
 
